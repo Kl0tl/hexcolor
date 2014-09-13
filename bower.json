@@ -1,0 +1,11 @@
+{
+  "name": "hexcolor",
+  "main": "hexcolor.js",
+  "version": "0.1.0",
+  "homepage": "https://github.com/Kl0tl/hexcolor",
+  "authors": [
+    "Cyril Sobierajewicz <sobierajewicz.cyril@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": []
+}
