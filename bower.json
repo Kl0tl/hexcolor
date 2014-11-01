@@ -6,5 +6,8 @@
   "authors": [
     "Cyril Sobierajewicz <sobierajewicz.cyril@gmail.com>"
   ],
+  "moduleType": [
+    "es6"
+  ],
   "license": "MIT"
 }
