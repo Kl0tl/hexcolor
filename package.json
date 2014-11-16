@@ -1,0 +1,19 @@
+{
+  "name": "hexcolor",
+  "version": "0.1.0",
+  "description": "hexcolor [![Dependency Status](https://gemnasium.com/Kl0tl/hexcolor.svg)](https://gemnasium.com/Kl0tl/hexcolor) ========",
+  "main": "hexcolor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kl0tl/hexcolor.git"
+  },
+  "author": "Cyril Sobierajewicz <sobierajewicz.cyril@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kl0tl/hexcolor/issues"
+  },
+  "homepage": "https://github.com/Kl0tl/hexcolor"
+}
