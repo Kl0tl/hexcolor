@@ -25,7 +25,7 @@ alpha.mul = function (color, amount) {
   return alpha.set(color, alpha(color) * amount);
 };
 alpha.set = function (color, amount) {
-  return (color ^ 0xff000000 | (clamp0255(amout) << 24)) >>> 0;
+  return (color ^ 0xff000000 | (clamp0255(amount) << 24)) >>> 0;
 };
 
 export function red(color) {
@@ -39,7 +39,7 @@ red.mul = function (color, amount) {
   return red.set(color, red(color) * amount);
 };
 red.set = function (color, amount) {
-  return (color ^ 0x00ff0000 | (clamp0255(amout) << 16)) >>> 0;
+  return (color ^ 0x00ff0000 | (clamp0255(amount) << 16)) >>> 0;
 };
 
 export function green(color) {
@@ -53,7 +53,7 @@ green.mul = function (color, amount) {
   return green.set(color, green(color) * amount);
 };
 green.set = function (color, amount) {
-  return (color ^ 0x0000ff00 | (clamp0255(amout) << 8)) >>> 0;
+  return (color ^ 0x0000ff00 | (clamp0255(amount) << 8)) >>> 0;
 };
 
 export function blue(color) {
@@ -67,7 +67,7 @@ blue.mul = function (color, amount) {
   return blue.set(color, blue(color) * amount);
 };
 blue.set = function (color, amount) {
-  return (color ^ 0x000000ff | clamp0255(amout)) >>> 0;
+  return (color ^ 0x000000ff | clamp0255(amount)) >>> 0;
 };
 
 export function format(color, template) {
